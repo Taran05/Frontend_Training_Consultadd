@@ -1,0 +1,14 @@
+<h2>Employee Data :</h2>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Birth Date</th>
+    </tr>
+    <tr *ngFor="let t of tabledata"> 
+        <td>{{t.id}}</td>
+        <td>{{t.name}}</td>
+        <td>{{t.birthDate}}</td>
+    </tr>
+</table>
+<app-sort (choice)="receiveVal($event)"></app-sort>
