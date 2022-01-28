@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Concentric Circles</title>
+    <style>
+        html{
+            background-color: rgba(88, 215, 247, 0.856);
+        }
+        .con{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox = "0 0 100 100">
+        <circle class="con" cx="50" cy="50" r="15" fill="#29a329" onclick="return display3()"/>
+        <circle class="con" cx="50" cy="50" r="10" fill="#1a66ff" onclick="return display2()"/>
+        <circle class="con" cx="50" cy="50" r="5" fill="#ff4d4d" onclick="return display1()"/>
+
+        <script>
+            function display1(){     
+                alert("c1");
+            }
+            function display2(){
+                alert("c2");
+            }
+            function display3(){
+                alert("c3");
+            }
+        </script>
+    </svg>
+</body>
+</html>
