@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: purple;
+}
+
+table, th, td{
+    font-family: sans-serif;
+    color: purple;
+    font-size:large;
+    border: 1px solid purple;
+}

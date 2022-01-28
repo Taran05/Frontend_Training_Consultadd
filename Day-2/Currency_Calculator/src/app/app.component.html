@@ -1,0 +1,31 @@
+<div class="display">
+  <app-currency></app-currency>
+  <br><br><br>
+  <div id ="block">
+    <br><br><br><br>
+  <input type="text" id="value" name="value" placeholder="Enter a value" [(ngModel)]="value">
+  <br><br>
+  <label from="From">From : </label>
+  <select name="currency" id="currency" [(ngModel)]="From">
+    <option value = "INR">INR</option>
+    <option value = "USD">USD</option>
+    <option value = "CAD">CAD</option>
+    <option value = "EUR">EUR</option>
+    <option value = "GBP">GBP</option>
+  </select>
+  <br><br>
+  <label to="To">To : </label>
+  <select name="currency" id="currency" [(ngModel)]="To">
+    <option value = "INR">INR</option>
+    <option value = "USD">USD</option>
+    <option value = "CAD">CAD</option>
+    <option value = "EUR">EUR</option>
+    <option value = "GBP">GBP</option>
+  </select>
+  <br><br><br>
+  <button (click)="calculate_currency()">Convert Currency</button>
+  <br><br><br>
+  <label>Result : </label>
+  <p style="color: crimson;">{{result}}</p>
+  </div>
+</div>

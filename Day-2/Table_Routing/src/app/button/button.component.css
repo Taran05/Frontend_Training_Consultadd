@@ -1,0 +1,25 @@
+.container { 
+    height: 500px;
+    position: relative;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+
+.button{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    border: #e6c406a9;
+    padding: 15px 32px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}

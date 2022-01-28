@@ -1,0 +1,24 @@
+<html>
+    <body style="margin: 0;">
+        <div>
+            <h1>User Details</h1>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th>User ID</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr *ngFor="let u of userData">
+                        <td>{{u.userId}}</td>
+                        <td>{{u.id}}</td>
+                        <td>{{u.title}}</td>
+                        <td>{{u.body}}</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>
